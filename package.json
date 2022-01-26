@@ -1,0 +1,15 @@
+{
+  "name": "rd_cli",
+  "version": "0.1.0",
+  "description": "a cli to create a new rd.md",
+  "main": "index.js",
+  "bin": {
+    "rdcli": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "https://github.com/wommy/rd_cli.git",
+  "author": "wommy <tom@technomad.media>",
+  "license": "Apache-2.0"
+}
