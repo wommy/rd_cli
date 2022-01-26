@@ -2,7 +2,11 @@
   "name": "rd_cli",
   "version": "0.1.0",
   "description": "a cli to create a new rd.md",
-  "main": "index.js",
+  "type": "module",
+  "exports": "./index.js",
+  "engines": {
+    "node": "^12.20.0 || ^14.13.1 || >=16.0.0"
+  },
   "bin": {
     "rdcli": "index.js"
   },
@@ -11,5 +15,8 @@
   },
   "repository": "https://github.com/wommy/rd_cli.git",
   "author": "wommy <tom@technomad.media>",
-  "license": "Apache-2.0"
+  "license": "Apache-2.0",
+  "dependencies": {
+    "chalk": "^5.0.0"
+  }
 }
