@@ -2,13 +2,27 @@ lockfileVersion: 5.3
 
 specifiers:
   chalk: ^5.0.0
+  lowdb: ^3.0.0
 
 dependencies:
   chalk: 5.0.0
+  lowdb: 3.0.0
 
 packages:
 
   /chalk/5.0.0:
     resolution: {integrity: sha512-/duVOqst+luxCQRKEo4bNxinsOQtMP80ZYm7mMqzuh5PociNL0PvmHFvREJ9ueYL2TxlHjBcmLCdmocx9Vg+IQ==}
     engines: {node: ^12.17.0 || ^14.13 || >=16.0.0}
+    dev: false
+
+  /lowdb/3.0.0:
+    resolution: {integrity: sha512-9KZRulmIcU8fZuWiaM0d5e2/nPnrFyXkeXVpqT+MJS+vgbgOf1EbtvgQmba8HwUFgDl1oeZR6XqEJnkJmQdKmg==}
+    engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
+    dependencies:
+      steno: 2.1.0
+    dev: false
+
+  /steno/2.1.0:
+    resolution: {integrity: sha512-mauOsiaqTNGFkWqIfwcm3y/fq+qKKaIWf1vf3ocOuTdco9XoHCO2AGF1gFYXuZFSWuP38Q8LBHBGJv2KnJSXyA==}
+    engines: {node: ^14.13.1 || >=16.0.0}
     dev: false

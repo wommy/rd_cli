@@ -1,0 +1,13 @@
+{
+  "future": [
+    "write RD-tudo"
+  ],
+  "now": [
+    "get the date",
+    "write to new file",
+    "todo --new",
+    "rd --new",
+    "rd __ => cd /rd && rd --new",
+    "api.github repos"
+  ]
+}
