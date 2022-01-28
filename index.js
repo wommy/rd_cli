@@ -12,22 +12,10 @@ await Tudos.read()
 // Tudos.data ||= {} // INIT
 // Tudos.data.push( CATEGORY: [] ) // new Category
 const { future, now } = Tudos.data
-// new Tudo
-// now.push( 'api.github repos' )
+// now.push( 'api.github repos' ) // new Tudo
 // await tudos.write()
 
 const mapTodo = x => x.map( y => `- [ ] `+y ).join('\n')
-// const future = [
-// 	`write RD-tudo`
-// ]
-// const now = [
-// 	`get the date`,
-// 	`write to new file`,
-// 	`todo --new`,
-// 	`rd --new`,
-// 	`rd __ => cd /rd && rd --new`,
-// 	`api.github repos`,
-// ]
 
 console.clear()
 log(dg(`
